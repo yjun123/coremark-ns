@@ -112,7 +112,7 @@ main(void)
     char *argv[1];
 #else
 MAIN_RETURN_TYPE
-main(int argc, char *argv[])
+coremark_main(int argc, char *argv[])
 {
 #endif
     ee_u16       i, j = 0, num_algorithms = 0;
